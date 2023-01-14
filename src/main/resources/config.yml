@@ -1,0 +1,28 @@
+# CONFIGURATION
+
+joinmessage: true
+joinplayermessage: true
+leaveplayermessage: true
+
+#ChatFormat
+default_format: '&f{player_name}&8: &f{message}'
+groups:
+  Default:
+    format: '&f{player_name}&8: &f{message}'
+  Owner:
+    format: '&8[&4Owner&8] &4{player_name}&8: &f{message}'
+
+#Spawn
+spawn:
+  world:
+  x:
+  y:
+  z:
+
+#Warps locations
+Warps:
+  PvP:
+    world:
+    x:
+    y:
+    z:

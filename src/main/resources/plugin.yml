@@ -1,0 +1,37 @@
+name: SurvivalCore
+version: '${project.version}'
+main: missingdrift.survivalcore.Survivalcore
+authors: [ MissingDrift ]
+commands:
+  svcore:
+    description: Enable/Disable you fly mode
+    aliases: [survivalcore, sc, svc]
+  setspawn:
+    description: Set the spawn location
+  spawn:
+    description: Teleport to the spawn
+  sethome:
+    description: Set your home location
+  home:
+    description: Teleport to your home
+  fly:
+    description: Enable/Disable you fly mode
+  message:
+    description: Teleport to your home
+    aliases: [msg]
+  gamemode:
+    description: Change your gamemode
+    aliases: [gm]
+  setwarp:
+    description: Set a warp location
+  warp:
+    description: Teleport to a warp
+  setwarp:
+    description: Set a warp location
+  teleport:
+    description: Teleport to a player location or coords location
+    aliases: [tp]
+  enchant:
+    description: Enchant your items
+  back:
+    description: Teleport to your last location
